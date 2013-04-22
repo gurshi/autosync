@@ -1,1 +1,8 @@
-A module to sync code across devices. 
+A module to sync code from a central "build/dev machine" to a bunch of local development environments. 
+
+It uses unison to sync code across machines and you need unison installed on the mac (client) and your dev machine (server).
+
+Typical setup: 
+
+	1 Build machine where you build and deploy from
+	1 mac for actual coding	
